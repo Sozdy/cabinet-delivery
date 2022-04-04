@@ -1,0 +1,35 @@
+.modal-content
+    .modal-header
+        background-color: $table-and-modal-header-color !important
+    .modal-body
+        .form-control
+            height: calc(2em + 2px)
+
+        .input-group-text
+            padding: 0 0.75rem
+
+        .custom-select
+            padding: 0 1.75rem 0 0.75rem
+            height: calc(2em + 2px)
+
+        input[type="checkbox"]
+            flex: 0 1 auto
+            width: 3.5%
+            cursor: pointer
+            margin-left: 15px
+
+        .ms-drop
+            input[type="checkbox"]
+                position: absolute
+                margin-top: .3rem
+                margin-left: -1.25rem
+
+
+    .btn-custom
+        color: #fff
+        background-color: $btn-color
+        border-color: $btn-color
+
+        &:hover
+            background-color: lighten($btn-color, 5%)
+            border-color: lighten($btn-color, 5%)

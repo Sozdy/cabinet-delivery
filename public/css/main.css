@@ -1,0 +1,94 @@
+#main-nav-bar > a
+{
+	margin: 10px 0;
+}
+
+#main-nav-bar > div
+{
+	margin: 10px 0;
+}
+
+#main-nav-bar > ul
+{
+	margin: 10px 0;
+}
+
+.users-input-group .input-group-prepend {
+	min-width: 162px;
+}
+
+.users-input-group .input-group-prepend span {
+	width: 100%;
+}
+
+.update-login-input-group .input-group-prepend {
+	min-width: 90px;
+}
+
+.update-login-input-group .input-group-prepend span {
+	width: 100%;
+}
+
+.update-password-input-group .input-group-prepend {
+	min-width: 162px;
+}
+
+.update-password-input-group .input-group-prepend span {
+	width: 100%;
+}
+
+.brigades-input-group .input-group-prepend {
+	min-width: 152px;
+}
+
+.brigades-input-group .input-group-prepend span {
+	width: 100%;
+}
+
+.deliveries-input-group .input-group-prepend {
+	min-width: 200px;
+}
+
+.deliveries-input-group .input-group-prepend span {
+	width: 100%;
+}
+
+.multiple-select {
+	width:100%;
+}
+
+.multiple-select button{
+	height:100%;
+}
+
+.daterangepicker .weekend {
+	color:red;
+}
+
+.daterangepicker table tr:nth-child(2) th:nth-child(6){
+	color:red;
+}
+
+.daterangepicker table tr:nth-child(2) th:nth-child(7){
+	color:red;
+}
+
+@media print {
+	@page { size: landscape; }
+  /* style sheet for print goes here */
+	button {
+	visibility: hidden;
+	}
+  
+	body  {
+	  color: #212529!important;
+	}
+	
+	.not-splittable  {
+		page-break-inside:auto; page-break-before:avoid;
+	}
+	
+	td  {
+		color: #212529!important;
+	}
+}

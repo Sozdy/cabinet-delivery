@@ -1,0 +1,67 @@
+#delivery_table_toolbar
+    .datepicker-container
+        font-size: 24px
+        line-height: 24px
+        text-transform: uppercase
+        color: #333333
+        display: flex
+        align-items: center
+
+        .datepicker
+            display: inline-block
+            border: 1px solid rgba(130, 130, 130, 0.3)
+            border-radius: 6px 0 0 6px
+            font-size: 16px
+            line-height: 20px
+            text-transform: uppercase
+            color: #333333
+            padding: 14px 22px
+            margin-left: 13px
+            min-height: 50px
+
+        .datepicker-ico
+            cursor: pointer
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 40px
+            height: 50px
+            background: #B2C0C5
+            border-radius:  0 6px 6px 0
+
+    .deliveries-table-container
+        height: 100%
+        font-size: 24px
+        line-height: 24px
+        text-transform: uppercase
+        color: #333333
+        display: flex
+        align-items: center
+
+
+#deliveries-table
+    border-radius: 6px
+    .thead-blue
+        .th-inner
+            text-align: center
+        th
+            color: white
+            background-color: $table-and-modal-header-color
+            border: 1px solid rgba(255, 255, 255, 0.3)
+
+        .ico-mountains:before
+            content: ''
+            display: block
+            width: 16px
+            height: 16px
+            background: no-repeat center url("../images/mountains.svg")
+            background-size: contain
+
+        .ico-ruble:before
+            content: ''
+            display: block
+            width: 11px
+            height: 16px
+            background: no-repeat center url("../images/ico-ruble.svg")
+            background-size: contain
+

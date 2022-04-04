@@ -1,0 +1,39 @@
+#main-nav-bar
+    background: $navbar-bg-color
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5)
+    margin-bottom: 14px
+
+    .navbar-brand
+        img
+            max-height: 30px
+
+    .nav-pills
+        .nav-link
+            font-size: 16px
+            line-height: 16px
+            display: flex
+            align-items: flex-end
+            text-align: center
+            text-transform: uppercase
+            color: #000000
+            padding: 16px 24px
+
+            &:hover
+                background-color: darken($navbar-bg-color, 10%)
+
+        .nav-link.active
+            background-color: $navbar-active-color
+            color: white
+
+
+    .navbar-nav
+        .btn-custom
+            background: $btn-color
+            padding: 14px 24px
+            font-style: normal
+            font-size: 16px
+            line-height: 16px
+            color: #FFFFFF
+
+            &:hover
+                background: lighten($btn-color, 10%)
